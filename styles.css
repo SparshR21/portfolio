@@ -212,7 +212,7 @@
   /*  Home  */
   .home {
     display: flex;
-    background: url("portfolio.avif") no-repeat
+    background: url("images/portfolio.avif") no-repeat
       center;
     height: 100vh;
     color: #fff;
