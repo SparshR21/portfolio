@@ -486,12 +486,12 @@ education {
 }
 
 .education .education-content .school img {
-  height: 100px; /* Adjust height as needed */
-  width: 100px; /* Adjust width as needed */
+  height: 100px; 
+  width: 100px; 
   border-radius: 50%;
   object-fit: cover;
-  margin: 0 auto 20px; /* Center the image horizontally and add bottom margin */
-  display: block; /* Ensure the image is displayed as a block element */
+  margin: 0 auto 20px; 
+  display: block; 
 }
 
 .education .education-content .school h3 {
@@ -661,11 +661,11 @@ education {
 }
 
 .certifications .carousel .card img {
-  height: 100%; /* Adjust height to fit the container */
-  width: 100%; /* Adjust width to fit the container */
+  height: 100%; 
+  width: 100%; 
   object-fit: cover;
-  border-radius: 0; /* Remove border-radius */
-  border: none; /* Remove border */
+  border-radius: 0; 
+  border: none;
   transition: all 0.3s ease;
 }
 
@@ -682,8 +682,7 @@ education {
 }
 
 .cert-link {
-  color: #ffffff; /* Adjust link color as needed */
-  text-decoration: none;
+  color: #ffffff; 
 }
 
 .cert-link:hover {
@@ -1022,11 +1021,11 @@ education {
       margin-bottom: 35px;
     }
     .education .max-width {
-      max-width: 800px; /* Adjust max-width as needed */
+      max-width: 800px; 
     }
     
   .education .education-content .school {
-      width: calc(50% - 20px); /* Adjust width as needed */
+      width: calc(50% - 20px);
     }
   }
   
@@ -1047,11 +1046,11 @@ education {
       width: 100%;
     }
     .education .max-width {
-      max-width: 600px; /* Adjust max-width as needed */
+      max-width: 600px; 
     }
   
     .education .education-content .school {
-      width: 100%; /* Take full width on smaller screens */
+      width: 100%; 
     }
   }
   
@@ -1085,6 +1084,6 @@ education {
       line-height: 38px;
     }
     .education .max-width {
-      max-width: 400px; /* Adjust max-width as needed */
+      max-width: 400px; 
     }
   }
