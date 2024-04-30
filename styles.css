@@ -212,7 +212,7 @@
   /*  Home  */
   .home {
     display: flex;
-    background: url("images/portfolio.avif") no-repeat
+    background: url("media/portfolio.avif") no-repeat
       center;
     height: 100vh;
     color: #fff;
@@ -274,6 +274,19 @@
     background: none;
     animation: pulsate 1s ease-in-out;
   }
+
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
   
   /*  About  */
   .about {
@@ -338,6 +351,54 @@
     background: none;
     animation: pulsate 1s ease-in-out;
   }
+
+  /* Style for Download CV Button */
+  .downloadCvBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid transparent; /* Initial border */
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1; /* Ensure button text is on top of shining border */
+}
+
+/* Shining border effect */
+.downloadCvBtn::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-color: rgba(59, 91, 196, 0.4);
+    transition: width 0.5s ease, height 0.5s ease, top 0.5s ease, left 0.5s ease;
+    z-index: 0;
+    border-radius: 50%;
+    pointer-events: none; /* Make the border transparent to pointer events */
+}
+
+/* Shining border effect on hover */
+.downloadCvBtn:hover::before {
+    width: 200%;
+    height: 200%;
+    top: -30%;
+    left: -30%;
+}
+
+/* Text styles */
+.downloadCvBtn span {
+    position: relative;
+    z-index: 1;
+}
+  
+  
+
   
   /*  Service  */
   .services,
